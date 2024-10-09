@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        #navlist{
+            background-color: rgb(10, 10, 98);
+            padding:16px;
+            display: flex;
+            gap:20px;
+            align-items:center;
+        }
+        
+        #navlist a{
+            color: black;
+            background-color: rgb(193, 230, 243);
+            padding: 8px 12px;
+            border:2px solid rgb(10, 10, 98);
+            text-decoration: none;
+            text-align:center;
+            border-radius: 0px 10px 0px 10px ;
+            
+        }
+        input{
+            padding:6px 9px;
+            border: none;
+            font-size: 17px;
+            border-radius: 12px;
+            max-width:400px;
+            flex-grow:1;
+        }
+        .icon{
+            background-color: rgb(36, 140, 144);
+            height:30px;
+            width:30px;
+            border:2px solid yellow;
+            border-radius: 50%;
+            transition: 2s;
+
+
+            &:hover{
+                border:4px dotted orange;
+                
+            }
+        }
+
+        #navlist a:hover{
+            border:2px solid blue;
+            border-radius:10px 0px 10px 0px;
+            transition: 2s;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+        <input type="text" placeholder="✨ Search here ... 🔍"name="search">
+        <div class="icon">
+        </div>
+    </div>
+</body>
+</html>
