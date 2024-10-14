@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navlist{
+    background-color: rgb(10, 10, 98);
+    padding:16px;
+    display: flex;
+    gap:20px;
+    align-items:center;
+    /* width:103vw; */
+}
+
+.navlist a{
+    color: black;
+    background-color: rgb(193, 230, 243);
+    padding: 8px 12px;
+    border:2px solid rgb(10, 10, 98);
+    text-decoration: none;
+    text-align:center;
+    border-radius: 0px 10px 0px 10px ;
+    
+}
+input{
+    padding:6px 9px;
+    border: none;
+    font-size: 17px;
+    border-radius: 12px;
+    max-width:400px;
+    flex-grow:1;
+    outline:none;
+}
+.icon{
+    background-color: rgb(36, 140, 144);
+    height:30px;
+    width:30px;
+    border:2px solid yellow;
+    border-radius: 50%;
+    transition: 600ms;
+
+
+    &:hover{
+        border:4px dashed orange;
+        
+    }
+}
+
+.navlist a:hover{
+    border:2px solid blue;
+    border-radius:10px 0px 10px 0px;
+    transition: 600ms;
+    
+}
+
+.grid1{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-auto-rows:auto;
+    /* column-gap: 10px; */
+}
+.navlist{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.asi{
+    margin-left:10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:3;
+    background-color:rgb(172, 172, 230);
+    border:1px solid rgba(172, 172, 230, 0.344);
+    padding: 48px 16px 0px;
+
+    /* display:flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.asi a{
+    display:block;
+    width:100%;
+    padding:8px;
+    border-radius:6px;
+    outline:none;
+    border: 2px solid rgb(172, 172, 230);
+    text-align: center;
+    text-decoration: none;
+    color:black;
+
+    &:hover{
+        background-color: rgb(160, 160, 213);
+    }
+}
+img{
+    /* background-image: url(PP.jpg); */
+    /* height:260px; */
+    width:100%;
+    /* background-repeat: no-repeat; */
+}
+.box{
+    /* background-color:aliceblue; */
+    /* height:100px; */
+    /* width:100vw; */
+    grid-column-start:2;
+    grid-row-start: 2;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: auto;
+    padding:24px;
+    column-gap:24px;
+    row-gap:24px;
+}
+.child{
+    height: 280px;
+    background-color: rgb(216, 214, 214);
+    border-radius:16px;
+
+    
+
+}
