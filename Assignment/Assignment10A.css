@@ -1,0 +1,23 @@
+.c2{
+    position:relative;
+    left:60px;
+}
+.c3{
+    position:relative;
+    left:80px;
+}
+.c6{
+    position:relative;
+    bottom:25px;
+    left:30px;
+}
+.c7{
+    position:relative;
+    z-index:2;
+}
+.c8{
+    position:relative;
+    bottom:25px;
+    left:30px;
+    z-index:1;
+}
