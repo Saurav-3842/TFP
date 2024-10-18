@@ -1,0 +1,45 @@
+
+.emoji-face{
+    height:100px;
+    width:100px;
+    margin:16px;
+    border-radius:50%;
+}
+.mouth-flat{
+    height:4px;
+    width:32px;
+    border-radius:2px;
+}
+
+
+.mouth-round{
+    height:16px;
+    width:16px;
+    border-radius:50%;
+}
+.left{
+    height:14px;
+    width:10px;
+    border-radius:100%;
+    /* rotate: 30deg; */
+}
+.right{
+    height:14px;
+    width:10px;
+    border-radius:100%;
+    /* rotate: 30deg; */
+}
+
+
+.mouth-amazed{
+    width:32px;
+    height:16px;
+    border-radius:16px;
+}
+
+
+.mouth-worried {
+    width:32px;
+    height:16px;
+    border-radius:8px 8px 50% 50%;
+}
