@@ -186,6 +186,11 @@ img{
     padding:0px 0px 0px 2px;
     font-size:14px;
     text-align:justify;
+
+    &:hover{
+        cursor:pointer;
+
+    }
 }
 .child2{
     height:32px;
@@ -201,8 +206,12 @@ img{
     width:16px;
     color:rgba(125, 124, 124, 0.56);
     margin-right:4px;
-    
-    padding-top: 3px;
+
+    &:hover{
+        cursor:pointer;
+        background-color: rgb(110, 108, 108);
+        border-radius:45%;
+    }
 }
 .child3{
     height:14px;
